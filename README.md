@@ -10,10 +10,10 @@
   </ul>
 </div>
 <div>
-<span>Anasayfa alti farkli link ile hakkimda,egitim,sehir,sehir kahramani,ilgi alani ve iletisim sayfalari bulunacaktir.</span><br>
+<span>Anasayfa alti farkli link ile hakkimda,özgeçmiş,sehir,sehir kahramani,ilgi alani ve iletisim sayfalari bulunacaktir.</span><br>
   <ul>
     <li>Hakkimda sayfasinda bana ait bilgiler verilcektir.</li>
-    <li>Egitim sayfasinda aldıgım egitimler ve gittigim okullar hakkinda bilgiler verilcektir.</li>
+    <li>Ozgecmis sayfasinda aldıgım egitimlerin bilgileriyle bana ait bilgiler paylasilcaktir.</li>
     <li>Sehrim sayfasinda Bolu'ya ait bilgiler ve Bolu'daki dogal guzelliklere ait fotograflar bulunacaktir.</li>
     <li>Sehir Kahramani sayfasinda Bolu'nun simgesel kahramani Koroglu'na ait bilgiler paylasilcaktir.</li>
     <li>Ilgi Alani sayfasinda futbol ve Besiktas futbol takimi hakkinda bilgiler verilcektir.</li>
