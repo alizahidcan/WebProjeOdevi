@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-size: 50px!important;
+    font-weight:1000!important;
+    color: rgb(97, 3, 3);
+}
+h3{
+    position: relative;
+    left: 5%;
+    font-weight:700!important;
+    color: rgb(97, 3, 3);
+}
+h3 a{
+    color: rgb(97, 3, 3);
+}
+.general h5{
+    color: rgb(97, 3, 3); 
+}
+.general{
+    width: 95%;
+    height: max-content;
+    margin-bottom: 100px;
+    margin-left: 2.5%;
+    border-style:solid ;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: rgb(97, 3, 3);
+    color: rgb(124, 7, 7);
+}
+.inf{
+    width: 95%;
+    position: relative;
+}
+.trip{
+    width: 95%;
+}
+#carouselExampleCaptions{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
