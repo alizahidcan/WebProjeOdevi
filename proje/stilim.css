@@ -1,0 +1,219 @@
+#aga{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 5px 15px 20px rgb(255, 25, 0), -5px -15px 20px blue, 0 0 10px black;
+}
+p{font-size: 18pt;
+  color:green;
+}
+div{
+  font-size: 22pt;
+  color: darkgrey;
+}
+span{
+  font-size: medium;
+  color: lightpink;
+}
+.rastrenk{
+  font-size: large;
+  font-style: italic;
+  color:rgb(213, 144, 238);
+}
+#kalın b{
+  font-weight: bold;
+  color: blueviolet;
+}
+/**{
+  background: currentColor;
+}*/
+li,table{
+  background-color: brown;
+  color: darkkhaki;
+}
+table + p{
+  color: rgb(243, 34, 172);
+}
+#sonra + p{
+  color:navy;
+}
+#sonra +p span{
+  color:gold;
+}
+ul li.after ~li{
+  color:rosybrown;
+}
+p[style]{
+  color:teal;
+  text-align: center;
+  margin-left: 370px;
+  margin-right: 370px;
+  word-break: break-all;
+  hyphens: auto;
+}
+#sonra::after{
+  content: 'Sonraki yazı(sözde öge)';
+  color: chartreuse;
+}
+#sonra::before{
+  content: 'Önceki yazı(sözde öge)';
+  color: olive;
+}
+p[style]::after{
+  content: attr(style);
+  color: peachpuff;
+  font-weight: bolder;
+}
+#sonra::first-letter{
+  color: darkred;
+  font-size: 30px;
+}
+input::placeholder{
+  color: rgb(6, 122, 83);
+  font-size: 12px;
+  font-weight: bolder;
+}
+ul li:first-child{
+  background-color: darkorange;
+}
+ul li:last-child{
+  background-color: black;
+}
+div:first-of-type{
+  background-color: rgb(213, 42, 244);
+}
+ol li:nth-child(odd){
+  background-color: chocolate;
+  color: darkcyan;
+}
+ol li:nth-child(even){
+  background-color: rgb(217, 79, 100);
+  color: tan;
+}
+ol li:nth-child(4n){
+  background-color: indigo;
+  color: orchid;
+}
+ol li:nth-child(n+5):nth-child(even):nth-child(-n+7){
+  background-color: darkseagreen;
+  color: fuchsia;
+}
+p:nth-of-type(6){
+  background-color: rgb(202, 199, 19);
+}
+ol li:nth-child(5):hover{
+  background-color: darkorange;
+  color: darkslategray;
+}
+button:hover + ol{
+  visibility: hidden;
+}
+input[type="radio"]:checked+span{
+  color: blue;
+}
+.checkbox{
+  display: none;
+}
+.button::before{
+  content: attr(data-hide);
+  background-color: darkgoldenrod;
+  font-size: 30px;
+}
+.checkbox:checked+.button::before{
+  content: attr(data-show);
+  background-color: darkgoldenrod;
+  font-size: 30px;
+}
+.checkbox:checked + .button + .box {
+  display: none;
+}
+input[type="text"]:focus{
+  color: fuchsia;
+}
+input[type="text"]:invalid{
+  border-color: indianred;
+}
+input[type="text"]:valid{
+  border-color: rgb(126, 233, 19);
+}
+input[type="number"]:in-range{
+  background-color: greenyellow;
+}
+input[type="number"]:out-of-range{
+  background-color: red;
+}
+.deneme{
+  height: 200px;
+  width: 50%;
+  text-align: center;
+  border-style:solid;
+  border-width:6px;
+  border-color: rgb(188, 104, 131);
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: khaki;
+  outline-offset: 1px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-size: 30px;
+  line-height: 120%;
+  white-space: nowrap;
+  position: relative;
+  left: 25%;
+}
+.deneme p{
+  font-size: 80%;
+  font-style:italic;
+  font-weight: bolder;
+  text-indent: 10px;
+  position: absolute;
+}
+.foto{
+  padding-top: 40px;
+  height: 400px;
+  width: 40%;
+  border: 15px dashed springgreen;
+  background-image: linear-gradient(to left,rgba(162, 53, 53, 0.166),rgba(204, 48, 48, 0.423)),url(indir.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  background-size: cover;
+}
+.foto2{
+  height: 400px;
+  background-image: url(https://cdn.freebiesupply.com/logos/large/2x/besiktas-jk-1-logo-png-transparent.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.düz{
+  height: 200px;
+  width: 200px;
+  background-image: conic-gradient(black,white);
+}
+.up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition-property: background-color;
+  transition-duration: 500ms;
+}
+.up:hover {
+  background-color: crimson;
+  color:lightyellow;
+}
+.bilm{
+  border: solid;
+  border-radius: 10px;
+  columns:3 350px;
+  column-rule-style: double;
+  column-rule-color: mediumspringgreen;
+  column-rule-width: 5px;
+  column-gap: 25px;
+  color: rgb(6, 4, 68);
+  font-size: large;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

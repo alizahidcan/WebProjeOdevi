@@ -1,0 +1,41 @@
+body{
+    margin: 0 0!important;
+    background:linear-gradient(to right,black 50% ,white 50%) !important;
+}
+.besiktas{
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.besiktas h3{
+    color: grey;
+    text-align: center;
+    font-size: 25px;
+}
+.süperlig{
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 10px;
+}
+.süperlig h3{
+    color: grey;
+    text-align: center;
+    font-size: 25px;
+}
+.istatistik{
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.istatistik h3{
+    color: grey;
+    text-align: center;
+    font-size: 25px;
+}
+.copy{
+    color: grey;
+    margin-top: 50px;
+    text-align: center;
+}

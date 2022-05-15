@@ -1,0 +1,28 @@
+body{
+    margin: 0 0!important;
+    background:linear-gradient(to right,black 50% ,rgb(104, 100, 100) 50%) !important;
+}
+.yazi{
+    width: 50%;
+    color: rgb(175, 170, 170);
+    margin-top: 30%;
+    word-wrap: break-word;
+}
+.yazi h3{
+    font-size: 40px;
+}
+.yazi span{
+    font-size: 30px;
+}
+.yazi img{
+    width: 75%;
+    border-radius: 360px;
+    position: relative;
+    left: 113%;
+    bottom: 500px;
+}
+.copy{
+    color: whitesmoke;
+    margin-top: 50px;
+    text-align: center;
+}

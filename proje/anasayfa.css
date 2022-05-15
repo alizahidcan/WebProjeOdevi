@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(155, 150, 150)!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+h1{
+    color: rgb(97, 3, 3);
+    text-align: center;
+    font-size: 50px;
+}
+h4{
+    font-size: 25px;
+    position: relative;
+    left: 2%;
+}
+.ben{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border-style:solid ;
+    border-radius: 25px;
+    border-width: 5px;
+    margin-bottom: 50px;
+    border-color: rgb(97, 3, 3);
+    color: rgb(97, 3, 3);
+}
+.ben span{
+    font-size: larger;
+    position: relative;
+    left: 2%;
+}
+.ben2{
+    width: 80%;
+    height: 400px;
+    position: relative;
+    left: 10%;
+    border-style:solid ;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: rgb(97, 3, 3);
+    color: rgb(97, 3, 3);
+}
+.ben2 h4{
+    width: 0px;
+    position: relative;
+    left: 47%;
+}
+#ilkbaslik span{
+    position: relative;
+    left: 14%;
+    font-size: 20px;
+    font-weight: 600;
+}
+#ortabaslik span{
+    position: relative;
+    left: 48%;
+    bottom: 22px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#sonbaslik span{
+    position: relative;
+    bottom: 44px;
+    left: 80%;
+    font-size: 20px;
+    font-weight: 600;
+}
+#ilkyazi{
+    margin-left:5%;
+    width: 25%;
+    height: 50%;
+    background-image: url(basket.jpg);
+    background-size:cover;
+    border-radius: 25px;
+}
+#ortayazi{
+    width: 25%;
+    height: 50%;
+    background-image: url(futbol.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    bottom: 200px;
+    left: 38%;
+}
+#sonyazi{
+    width: 25%;
+    height: 50%;
+    background-image: url(lahmacun.jpg)!important;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    left: 70%;
+    bottom: 400px;
+}
+.ilklink{
+    margin-left: 5px;
+    position: relative;
+    top: 20%;;
+}
+.ikincilink span{
+    position: relative;
+    bottom: 20px;
+    left: 20%;  
+}
+.ucunculink span{
+    position: relative;
+    bottom: 60px;
+    left: 40%;
+}
+.dordunculink span{
+    position: relative;
+    bottom: 100px;
+    left: 55%;
+}
+.besincilink span{
+    position: relative;
+    bottom: 130px;
+    left: 68%;
+}
+.link span{
+    font-size: 30px;
+}
+.copy{
+    color: whitesmoke;
+    margin-top: 50px;
+    text-align: center;
+}
